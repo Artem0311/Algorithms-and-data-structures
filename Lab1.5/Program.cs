@@ -46,7 +46,7 @@ class Program
             else
                 right = mid - 1;
         }
-        return null; // Not found
+        return null;
     }
 
     static void Main()
