@@ -11,7 +11,7 @@ namespace Lab2_3
             Console.WriteLine();
 
             Console.Write("Enter the number of student groups: ");
-            string input = Console.ReadLine();
+            string input = Console.ReadLine() ?? string.Empty;
 
             try
             {
